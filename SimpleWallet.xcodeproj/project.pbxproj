@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CC220F2C000AAD00DA9345 /* SimpleWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC220E2C000AAD00DA9345 /* SimpleWalletApp.swift */; };
+		79CC22112C000AAD00DA9345 /* AllExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22102C000AAD00DA9345 /* AllExpensesView.swift */; };
+		79CC221D2C0027A300DA9345 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221C2C0027A300DA9345 /* Expense.swift */; };
+		79CC221F2C002A0F00DA9345 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221E2C002A0F00DA9345 /* ExpenseView.swift */; };
+		79CC22212C002A4000DA9345 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22202C002A4000DA9345 /* AddExpenseView.swift */; };
+		79CC22232C01F57E00DA9345 /* TypesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22222C01F57E00DA9345 /* TypesChartView.swift */; };
+		79CC22262C0315FF00DA9345 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221C2C0027A300DA9345 /* Expense.swift */; };
+		79CC22272C0315FF00DA9345 /* AllExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22102C000AAD00DA9345 /* AllExpensesView.swift */; };
+		79CC22282C0315FF00DA9345 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22202C002A4000DA9345 /* AddExpenseView.swift */; };
+		79CC22292C0315FF00DA9345 /* TypesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22222C01F57E00DA9345 /* TypesChartView.swift */; };
+		79CC222A2C0315FF00DA9345 /* SimpleWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC220E2C000AAD00DA9345 /* SimpleWalletApp.swift */; };
+		79CC222B2C0315FF00DA9345 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221E2C002A0F00DA9345 /* ExpenseView.swift */; };
+		79CC22362C03162200DA9345 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221C2C0027A300DA9345 /* Expense.swift */; };
+		79CC22372C03162200DA9345 /* AllExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22102C000AAD00DA9345 /* AllExpensesView.swift */; };
+		79CC22382C03162200DA9345 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22202C002A4000DA9345 /* AddExpenseView.swift */; };
+		79CC22392C03162200DA9345 /* TypesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC22222C01F57E00DA9345 /* TypesChartView.swift */; };
+		79CC223A2C03162200DA9345 /* SimpleWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC220E2C000AAD00DA9345 /* SimpleWalletApp.swift */; };
+		79CC223B2C03162200DA9345 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC221E2C002A0F00DA9345 /* ExpenseView.swift */; };
+		79CC22452C031B6100DA9345 /* AssetsA.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CC22122C000AAE00DA9345 /* AssetsA.xcassets */; };
+		79CC22492C031D6E00DA9345 /* AssetsB.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CC22472C031D6700DA9345 /* AssetsB.xcassets */; };
+		79CC224C2C031E2400DA9345 /* AssetsC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CC224A2C031E1700DA9345 /* AssetsC.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79CC220B2C000AAD00DA9345 /* SimpleWalletA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWalletA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CC220E2C000AAD00DA9345 /* SimpleWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWalletApp.swift; sourceTree = "<group>"; };
+		79CC22102C000AAD00DA9345 /* AllExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExpensesView.swift; sourceTree = "<group>"; };
+		79CC22122C000AAE00DA9345 /* AssetsA.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsA.xcassets; sourceTree = "<group>"; };
+		79CC221C2C0027A300DA9345 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		79CC221E2C002A0F00DA9345 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		79CC22202C002A4000DA9345 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		79CC22222C01F57E00DA9345 /* TypesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesChartView.swift; sourceTree = "<group>"; };
+		79CC22332C0315FF00DA9345 /* SimpleWalletB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWalletB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CC22432C03162200DA9345 /* SimpleWalletC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWalletC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CC22472C031D6700DA9345 /* AssetsB.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsB.xcassets; sourceTree = "<group>"; };
+		79CC224A2C031E1700DA9345 /* AssetsC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsC.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CC22082C000AAD00DA9345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC222C2C0315FF00DA9345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC223C2C03162200DA9345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CC22022C000AAD00DA9345 = {
+			isa = PBXGroup;
+			children = (
+				79CC220D2C000AAD00DA9345 /* SimpleWallet */,
+				79CC220C2C000AAD00DA9345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CC220C2C000AAD00DA9345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CC220B2C000AAD00DA9345 /* SimpleWalletA.app */,
+				79CC22332C0315FF00DA9345 /* SimpleWalletB.app */,
+				79CC22432C03162200DA9345 /* SimpleWalletC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CC220D2C000AAD00DA9345 /* SimpleWallet */ = {
+			isa = PBXGroup;
+			children = (
+				79CC220E2C000AAD00DA9345 /* SimpleWalletApp.swift */,
+				79CC22102C000AAD00DA9345 /* AllExpensesView.swift */,
+				79CC22202C002A4000DA9345 /* AddExpenseView.swift */,
+				79CC221C2C0027A300DA9345 /* Expense.swift */,
+				79CC221E2C002A0F00DA9345 /* ExpenseView.swift */,
+				79CC22222C01F57E00DA9345 /* TypesChartView.swift */,
+				79CC22122C000AAE00DA9345 /* AssetsA.xcassets */,
+				79CC22472C031D6700DA9345 /* AssetsB.xcassets */,
+				79CC224A2C031E1700DA9345 /* AssetsC.xcassets */,
+			);
+			path = SimpleWallet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CC220A2C000AAD00DA9345 /* SimpleWalletA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CC22192C000AAE00DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletA" */;
+			buildPhases = (
+				79CC22072C000AAD00DA9345 /* Sources */,
+				79CC22082C000AAD00DA9345 /* Frameworks */,
+				79CC22092C000AAD00DA9345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWalletA;
+			productName = SimpleWallet;
+			productReference = 79CC220B2C000AAD00DA9345 /* SimpleWalletA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CC22242C0315FF00DA9345 /* SimpleWalletB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CC22302C0315FF00DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletB" */;
+			buildPhases = (
+				79CC22252C0315FF00DA9345 /* Sources */,
+				79CC222C2C0315FF00DA9345 /* Frameworks */,
+				79CC222D2C0315FF00DA9345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWalletB;
+			productName = SimpleWallet;
+			productReference = 79CC22332C0315FF00DA9345 /* SimpleWalletB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CC22342C03162200DA9345 /* SimpleWalletC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CC22402C03162200DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletC" */;
+			buildPhases = (
+				79CC22352C03162200DA9345 /* Sources */,
+				79CC223C2C03162200DA9345 /* Frameworks */,
+				79CC223D2C03162200DA9345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWalletC;
+			productName = SimpleWallet;
+			productReference = 79CC22432C03162200DA9345 /* SimpleWalletC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CC22032C000AAD00DA9345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					79CC220A2C000AAD00DA9345 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 79CC22062C000AAD00DA9345 /* Build configuration list for PBXProject "SimpleWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79CC22022C000AAD00DA9345;
+			productRefGroup = 79CC220C2C000AAD00DA9345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CC220A2C000AAD00DA9345 /* SimpleWalletA */,
+				79CC22242C0315FF00DA9345 /* SimpleWalletB */,
+				79CC22342C03162200DA9345 /* SimpleWalletC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CC22092C000AAD00DA9345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC22452C031B6100DA9345 /* AssetsA.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC222D2C0315FF00DA9345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC22492C031D6E00DA9345 /* AssetsB.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC223D2C03162200DA9345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC224C2C031E2400DA9345 /* AssetsC.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CC22072C000AAD00DA9345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC221D2C0027A300DA9345 /* Expense.swift in Sources */,
+				79CC22112C000AAD00DA9345 /* AllExpensesView.swift in Sources */,
+				79CC22212C002A4000DA9345 /* AddExpenseView.swift in Sources */,
+				79CC22232C01F57E00DA9345 /* TypesChartView.swift in Sources */,
+				79CC220F2C000AAD00DA9345 /* SimpleWalletApp.swift in Sources */,
+				79CC221F2C002A0F00DA9345 /* ExpenseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC22252C0315FF00DA9345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC22262C0315FF00DA9345 /* Expense.swift in Sources */,
+				79CC22272C0315FF00DA9345 /* AllExpensesView.swift in Sources */,
+				79CC22282C0315FF00DA9345 /* AddExpenseView.swift in Sources */,
+				79CC22292C0315FF00DA9345 /* TypesChartView.swift in Sources */,
+				79CC222A2C0315FF00DA9345 /* SimpleWalletApp.swift in Sources */,
+				79CC222B2C0315FF00DA9345 /* ExpenseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC22352C03162200DA9345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC22362C03162200DA9345 /* Expense.swift in Sources */,
+				79CC22372C03162200DA9345 /* AllExpensesView.swift in Sources */,
+				79CC22382C03162200DA9345 /* AddExpenseView.swift in Sources */,
+				79CC22392C03162200DA9345 /* TypesChartView.swift in Sources */,
+				79CC223A2C03162200DA9345 /* SimpleWalletApp.swift in Sources */,
+				79CC223B2C03162200DA9345 /* ExpenseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79CC22172C000AAE00DA9345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79CC22182C000AAE00DA9345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CC221A2C000AAE00DA9345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_A\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79CC221B2C000AAE00DA9345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_A\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		79CC22312C0315FF00DA9345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_B\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79CC22322C0315FF00DA9345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_B\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		79CC22412C03162200DA9345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_C\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79CC22422C03162200DA9345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WC52MMY4RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "\"-DSIMPLE_WALLET_C\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chex.SimpleWalletC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CC22062C000AAD00DA9345 /* Build configuration list for PBXProject "SimpleWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC22172C000AAE00DA9345 /* Debug */,
+				79CC22182C000AAE00DA9345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CC22192C000AAE00DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC221A2C000AAE00DA9345 /* Debug */,
+				79CC221B2C000AAE00DA9345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CC22302C0315FF00DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC22312C0315FF00DA9345 /* Debug */,
+				79CC22322C0315FF00DA9345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CC22402C03162200DA9345 /* Build configuration list for PBXNativeTarget "SimpleWalletC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC22412C03162200DA9345 /* Debug */,
+				79CC22422C03162200DA9345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CC22032C000AAD00DA9345 /* Project object */;
+}
